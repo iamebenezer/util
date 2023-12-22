@@ -153,7 +153,7 @@
                   <a  class="" title="Network">Network</a>
                 </li>
                 <li>
-                  <a class="">Blog</a>
+                  <a class="" href="/Whitepaper.pdf">Whitepaper</a>
                 </li>
                 <li class="li-bn">
                   <a class="bn" title="Go to App" to=" href=" target="_self" rel="noreferrer noopener">
@@ -234,7 +234,60 @@
                     <!--]-->
                   </div>
                 </div>
-              </div><div id="s"><div class="ct"><div class="title"><h2 data-reveal="bottom" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><span class="grd">Our Services</span></h2><div class="txt" data-reveal="bottom" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><p>Pulse (formerly UniCrypt) is a leading provider of decentralized finance services. We are consistent market innovators of automated and scalable token solutions. Thousands of investors and projects rely on our certified &amp; secured technology to participate in DeFi safely. Many imitate, but few innovate like we did.</p></div></div><div class="lst">
+              </div>
+              <style>
+              
+            
+                #countdown {
+                  font-size: 40px;
+                  font-weight: bold;
+                
+                  text-align: center;
+                }
+                .time-con{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+              </style>
+            </head>
+                <div class="time-con">
+            <div id="countdown" class="grd">Loading...</div>
+        </div>
+            <script>
+              // Function to update the countdown
+              function updateCountdown() {
+                var now = new Date();
+                var targetTime = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 21, 0, 0); // 9:00 PM
+            
+                // Calculate the remaining time
+                var timeDiff = targetTime - now;
+            
+                // Check if the target time has already passed
+                if (timeDiff <= 0) {
+                  document.getElementById('countdown').innerHTML = "It's 9:00 PM!";
+                } else {
+                  // Convert milliseconds to hours, minutes, and seconds
+                  var hours = Math.floor(timeDiff / (1000 * 60 * 60));
+                  var minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+                  var seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+            
+                  // Display the countdown
+                  document.getElementById('countdown').innerHTML = hours + "h " + minutes + "m " + seconds + "s";
+                }
+              }
+            
+              // Update the countdown every second
+              setInterval(updateCountdown, 1000);
+            
+              // Initial call to display the countdown immediately
+              updateCountdown();
+            </script>
+            
+ <div id="s">
+                <div class="ct">
+                    <div class="title">
+                        <h2 data-reveal="bottom" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><span class="grd">Our Services</span></h2><div class="txt" data-reveal="bottom" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><p>Pulse (formerly UniCrypt) is a leading provider of decentralized finance services. We are consistent market innovators of automated and scalable token solutions. Thousands of investors and projects rely on our certified &amp; secured technology to participate in DeFi safely. Many imitate, but few innovate like we did.</p></div></div><div class="lst">
                     <!--[--><div><div class="serv" data-reveal="bottom" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><picture class="picture"><img src="/img/services-new/unicrypt-icon-launchpad.png" loading="lazy" width="600" height="635" class="" alt="ILO <br />Launchpad • Pulse"></picture><h3>ILO <br>Launchpad</h3><div class="butt">
                           <!--[--><a class="bn bn-max" title="Go to App" to="" href="" target="_self" rel="noreferrer noopener"><span>Go to App</span></a><a class="bn bn-max bn-border" title="Documentation" to="" href="" target="_blank" rel="noreferrer noopener"><span>Documentation</span></a>
                           <!--]-->
