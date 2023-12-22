@@ -1895,9 +1895,9 @@ video {
     --txt-1-rgb: 255, 255, 255;
     --txt-1: rgb(var(--txt-1-rgb));
     --color-1-rgb: 0, 254, 52;
-    --color-1: rgb(var(--color-1-rgb));
+    --color-1: #C34DE5;
     --color-2-rgb: 4, 212, 131;
-    --color-2: rgb(var(--color-2-rgb));
+    --color-2: #5CACC7;
     --color-3-rgb: 50, 102, 255;
     --color-3: rgb(var(--color-3-rgb));
     --color-4-rgb: 148, 23, 255;
@@ -2509,7 +2509,7 @@ body.smooth-scroll {
 
 #t .ct h1>* {
     -webkit-text-fill-color: transparent;
-    background: linear-gradient(90deg, #00fe34, #04d483);
+    background: linear-gradient(90deg, #C34DE5, #5CACC7, #1BE8B4);
     background: linear-gradient(to right, var(--color-1), var(--color-2));
     -webkit-background-clip: text;
     display: block
@@ -3304,7 +3304,7 @@ html {
 
 .grd {
     -webkit-text-fill-color: transparent;
-    background: linear-gradient(90deg, #00fe34, #04d483);
+    background: linear-gradient(90deg, #C34DE5, #5CACC7, #1BE8B4);
     background: linear-gradient(to right, var(--color-1), var(--color-2));
     -webkit-background-clip: text;
     display: inline-block;
