@@ -290,14 +290,14 @@
               // Function to update the countdown
               function updateCountdown() {
                 var now = new Date();
-                var targetTime = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 21, 0, 0); // 9:00 PM
+                var targetTime = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 22, 0, 0); // 9:00 PM
             
                 // Calculate the remaining time
                 var timeDiff = targetTime - now;
             
                 // Check if the target time has already passed
                 if (timeDiff <= 0) {
-                  document.getElementById('countdown').innerHTML = "It's 9:00 PM!";
+                  document.getElementById('countdown').innerHTML = "It's 10:00 PM!";
                 } else {
                   // Convert milliseconds to hours, minutes, and seconds
                   var hours = Math.floor(timeDiff / (1000 * 60 * 60));
@@ -440,7 +440,8 @@
                             <a href="" target="_blank" title="Documentation" rel="noopener noreferrer">Documentation</a></li>
                             <li><a class="" title="Our Tokens">Our Tokens</a></li><li>
                                 <a class="" title="Network">Network</a></li><li>
-                                    <a  target="_blank" title="Medium Blog" rel="noopener noreferrer">Medium Blog</a></li>
+                                    <a  target="_blank" title="Medium Blog" rel="noopener noreferrer">Medium Blog</a>
+                                </li>
                         <!--]-->
                       </ul></div></div><div class="bottom"><p class="grd" data-reveal="bottom" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">Pulse © 2021-2023. All rights reserved.</p></div></div><div class="bg" style="translate: none; rotate: none; scale: none; transform: translate(0px, -50%);"></div></footer>
             </div><div class="scrollbar-track scrollbar-track-x" style="display: inline;"><div class="scrollbar-thumb scrollbar-thumb-x" style="width: 1016px; transform: translate3d(0px, 0px, 0px);"></div></div><div class="scrollbar-track scrollbar-track-y" style="display: none;"><div class="scrollbar-thumb scrollbar-thumb-y" style="height: 5360px; transform: translate3d(0px, 0px, 0px);"></div></div>
