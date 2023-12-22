@@ -1,0 +1,64 @@
+.top-right-bounce {
+    --moveSize: 15px;
+    animation: top-right-bounce 2s ease infinite
+}
+
+.top-bounce {
+    animation: top-bounce 2s linear infinite
+}
+
+.waving {
+    animation: waving 5s ease infinite reverse
+}
+
+.pulse {
+    animation: pulse 5s ease infinite reverse
+}
+
+@keyframes top-right-bounce {
+    0% {
+        transform: translate(0)
+    }
+    50% {
+        transform: translate(calc(var(--moveSize)*-1), var(--moveSize))
+    }
+    to {
+        transform: translate(0)
+    }
+}
+
+@keyframes top-bounce {
+    0% {
+        transform: translate(0)
+    }
+    50% {
+        transform: translateY(-15px)
+    }
+    to {
+        transform: translate(0)
+    }
+}
+
+@keyframes waving {
+    0% {
+        transform: rotate(1deg)
+    }
+    50% {
+        transform: rotate(-1deg)
+    }
+    to {
+        transform: rotate(1deg)
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1.05)
+    }
+    50% {
+        transform: scale(.95)
+    }
+    to {
+        transform: scale(1.05)
+    }
+}

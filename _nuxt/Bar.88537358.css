@@ -1,0 +1,19 @@
+#h {
+    align-items: center;
+    background: linear-gradient(to bottom, var(--bg-1), rgba(var(--bg-1-rgb), .95));
+    border-radius: 0 0 var(--radius-2) var(--radius-2);
+    box-shadow: 0 0 20px rgba(var(--bg-1-rgb), .25);
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    padding: var(--header-padding);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 101
+}
+
+#h .logo {
+    display: block;
+    width: calc(214.07407px + 1.85185vw)
+}

@@ -1,0 +1,28 @@
+.posts-wrapper {
+    gap: 40px 20px
+}
+
+.blog-post-preview {
+    width: calc(33.33333% - 20px)
+}
+
+.prose h1 a,
+.prose h2 a,
+.prose h3 a,
+.prose h4 a,
+.prose h5 a,
+.prose h6 a {
+    text-decoration: none
+}
+
+@media (max-width:1000px) {
+    .blog-post-preview {
+        width: calc(50% - 20px)
+    }
+}
+
+@media (max-width:500px) {
+    .blog-post-preview {
+        width: 100%
+    }
+}

@@ -1,0 +1,28 @@
+.blog-page table td,
+.blog-page table th {
+    padding: 10px
+}
+
+.blog-page table th {
+    border-bottom: 1px solid #90ee90
+}
+
+.blog-post-preview pre {
+    overflow: scroll
+}
+
+.blog-page .prose-invert pre {
+    border: 1px solid #404040
+}
+
+.blog-page__title {
+    align-items: flex-end;
+    display: flex;
+    font-size: 34px;
+    margin-bottom: 30px;
+    padding: 10px
+}
+
+.blog-page__title.with-image {
+    height: 350px
+}
